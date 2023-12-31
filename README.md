@@ -33,15 +33,28 @@ This was a Data Science project for Udacity where I was looking to compare the A
 
 #  <h2> File Descriptions <h2>
 -Original Data Sets-
-Seattle_listings.csv : The dataset featuring all of the Seattle Airbnb listings from 2009-2016 
-listings.csv : The dataset featuring all of the Seattle Airbnb listings from 2009-2016
+
+https://github.com/SeanWard1979/Data-Science-Project/blob/main/Seattle_listings.csv
+
+[Seattle_listings.csv] : The dataset featuring all of the Seattle Airbnb listings from 2009-2016 
+
+https://github.com/SeanWard1979/Data-Science-Project/blob/main/listings.csv
+
+[listings.csv] : The dataset featuring all of the Seattle Airbnb listings from 2009-2016
 
 -Cleaned Data Set-
-df_merged.csv : The Boston and Seattle datasets cleaned and merged with many columns dropped (the originals had 92 columns, this one has 9 columns).
+
+https://github.com/SeanWard1979/Data-Science-Project/blob/main/df_merged.csv
+
+[df_merged.csv] : The Boston and Seattle datasets cleaned and merged with many columns dropped (the originals had 92 columns, this one has 9 columns).
 
 -Final Notebook and References-
-Data_Science_Process_Boston-Seattle_Airbnb_Final.ipynb : Featurings all of the data cleaning, wrangling, exploration and visualizations of the project with the questions and conclusions as well.
-References.ipynb : All of the websites that I explored to help me code.
+
+(https://github.com/SeanWard1979/Data-Science-Project/blob/main/Data_Science_Process_Boston-Seattle_Airbnb_Final.ipynb)
+[Data_Science_Process_Boston-Seattle_Airbnb_Final.ipynb] : Featurings all of the data cleaning, wrangling, exploration and visualizations of the project with the questions and conclusions as well.
+
+(https://github.com/SeanWard1979/Data-Science-Project/blob/main/References.ipynb)
+[References.ipynb] : All of the websites that I explored to help me code.
 
 #  <h2> How to Interact with your project <h2>
 Feel free to download my Final Notebook, explore more with the code and then post your own version of the notebook on here.
