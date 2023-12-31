@@ -56,8 +56,21 @@ https://github.com/SeanWard1979/Data-Science-Project/blob/main/df_merged.csv
 (https://github.com/SeanWard1979/Data-Science-Project/blob/main/References.ipynb)
 [References.ipynb] : All of the websites that I explored to help me code.
 
-#  <h2> How to Interact with your project <h2>
-Feel free to download my Final Notebook, explore more with the code and then post your own version of the notebook on here.
+#  <h2>The Project's Journey <h2>
+I started off with two very large datasets for Seattle and for Boston (both 92 columns) and explored through what each column looked like while looking at the source of the data (kaggle.com).  I was able to choose the 14 initial columns that I wanted to explore for the project while I was importing the .csv files from kaggle.com.  Some columns I didn't use (but what could still work for further exploration) were the Airbnb host's name, street, bathrooms, bedrooms, amenities, along with latitude and longitude (for geospatial visualizations aka maps).
+
+After I came up with the three questions, I dropped the columns I wasn't going to use.  I did some data cleaning to drop all of the Nan values and to make sure all cities said either "Boston" or "Seattle."  After I cleaned each one up, I merged them into one dataset called "df_merged." 
+
+Question 1: What are the most expensive neighborhoods for Boston/Seattle and how do they compare?
+I decided to start grouping the data by "neighborhood" to look at the average values especially for price.  I decided that there were way too many neighborhoods to have a visualization that has all of them on it...so I narrowed it down to the 15 most expensive neighborhoods in Boston and the same for Seattle.  I created a dataset (neigh_merged) for these 30 neighborhoods, sorted them in descending order, then created a horizontal bar chart.  The bar chart clearly showed that Boston had 12 of the 14 most expensive neighborhoods.
+
+Question 2: Which of the most expensive Airbnb neighborhoods have the best reviewed properties?
+I reused the neigh_merged dataset to compare the 30 most expensive Airbnb neighborhoods by review score averages.  In the bar chart I created, it showed that Seattle's expensive neighborhoods were rated higher (11 of the first 12 highest rated were Seattle).  With the previous horizontal bar chart and this bar chart I used the color "blue" for Seattle and the color "red" for Boston (a nod to the Mariners and Red Sox baseball teams).  
+
+Question 3: Which city has more Airbnb reviews, the best overall reviews, and the highest average prices?
+In continuing to compare reviews and prices, I decided to look at overall numbers for both Boston and Seattle.  I dropped all the entries that had "0" for number of reviews and called that dataset "reviews."  I made sure they all had the city name for each line, and created comparisons between Boston and Seattle for averages and for sums.  The averages were for price, number of reviews and ratings.  The sums were mostly for number of ratings. 
+
+I created a pie chart that counted the total number of reviews for Boston and Seattle (Seattle= 55.4% and Boston= 44.6%).  I had another bar chart showing the number of reviews (Seattle= 84,829, Boston= 68,208).  I also created a stacked bar chart showing average price, number of reviews, and review score ratings between Boston and Seattle. It all verified that Boston has the higher average price by far ($167 to Seattle's $127) and that Seattle had slightly more reviews per property (Seattle= 26.8, Boston= 24.6).  Seattle also had higher average review scores as well (94.5% to 91.9% for Boston).  
 
 
 #  <h2> Licensing, Authors, Acknowledgements, etc. <h2>
